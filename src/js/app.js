@@ -13,7 +13,7 @@ export default function orderByProps(obj, sortOrder) {
   for (const param in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, param)) {
       objArray.push({ key: param, value: obj[param] });
-    } 
+    }
   }
 
   sortOrder.forEach((element) => {
